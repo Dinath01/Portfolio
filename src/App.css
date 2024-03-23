@@ -1,11 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  background-image: url('bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.background {
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
 .portfolio-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 
 .info {
   flex: 1;
+  color: aliceblue;
   padding: 20px;
 }
 
@@ -15,7 +31,7 @@
 }
 
 .image img {
-  max-width: 100%;
-  height: auto;
+  max-width: 75%;
+  height: 50%;
   border-radius: 5px;
 }

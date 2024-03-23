@@ -6,7 +6,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio-container">
       <div className="info">
-        <h1>Dinith Nethmina Surendra</h1>
+        <h2>Hello,</h2>
+        <h1>I'm Dinith Nethmina Surendra</h1>
         <p>Undergraduate</p>
       </div>
       <div className="image">
