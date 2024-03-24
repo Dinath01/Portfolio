@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import backgroundImage from './bg.png';
 import './App.css';
+import Skills from './components/Skills';
 
 const Portfolio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -67,7 +68,14 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+
+      <div className="spacer"></div>
+      
+      <Skills />
+
     </div>
+
+    
   );
 };
 
